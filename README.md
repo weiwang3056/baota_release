@@ -11,17 +11,24 @@
 先使用宝塔官方的安装脚本安装最新版宝塔
 * Centos安装命令：
 
+```
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && sh install.sh
+```
+```
 curl -sSO http://download.bt.cn/install/install_6.0.sh && bash install_panel.sh 
+```
 * Ubuntu/Deepin安装命令：
-
+```
 wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo bash install.sh 
+```
 * Debian安装命令：
-
+```
 wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && bash install.sh 
+```
 * Fedora安装命令:
-
+```
 wget -O install.sh http://download.bt.cn/install/install_6.0.sh && bash install.sh
+```
 
 ### 降级
 然后解压对应的降级包，运行panel文件夹中的update.sh脚本即可
@@ -35,7 +42,11 @@ wget -O install.sh http://download.bt.cn/install/install_6.0.sh && bash install.
 
 * Q：降级后显示宝塔无法启动，但无任何报错
 
-  S：需要将markupsafe==2.0.1添加到panel目录下的requirements.txt文件中并执行/www/server/panel/pyenv/bin/pip3 install -r requirements.txt安装python库后重启面板即可
+  S：需要将markupsafe==2.0.1添加到panel目录下的requirements.txt文件中并执行
+```
+/www/server/panel/pyenv/bin/pip3 install -r requirements.txt
+```
+安装python库后重启面板即可
 
 * Q：降级后登录宝塔面板时提示密码错误
 
