@@ -7,7 +7,14 @@
 * 7.2.0之前的版本不推荐使用，因为代码改动过大，降级后无法正常使用
 
 # 使用方法
+[宝塔回退7.4.5之前版本教程](https://blog.csdn.net/saygoodbyeyo/article/details/132534437)
+
+[宝塔回退7.7.0版本，修改js绕过登陆限制](https://blog.csdn.net/saygoodbyeyo/article/details/132540562)
+
+[宝塔免费使用专业版插件教程](https://blog.csdn.net/saygoodbyeyo/article/details/132542724)
+
 ### 安装宝塔
+
 先使用宝塔官方的安装脚本安装最新版宝塔
 * Centos安装命令：
 
